@@ -23,5 +23,8 @@ public class Test {
         Singleton_hungry singleton_hungry = constructor.newInstance();
         System.out.println(singleton_hungry == singleton_hungry1);
 
+        // 经典的单例模式
+        Runtime runtime = Runtime.getRuntime();
+
     }
 }
